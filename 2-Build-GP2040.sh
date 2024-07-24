@@ -2,7 +2,7 @@
 
 # PLEASE NOTE
 # The following line must be changed depending on which pico board is used:
-export GP2040_BOARDCONFIG=Pico
+export GP2040_BOARDCONFIG=PXPGamepad
 # Supported Boards (choose one):
 # ARCController, Pico, BentoBox, FightboardV3, FightboardV3Mirrored, 
 # FlatboxRev4, FlatboxRev5, FlatboxRev5RGB, FlatboxRev5Southpaw, Granola, 

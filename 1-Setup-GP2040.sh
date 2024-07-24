@@ -17,4 +17,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
 nvm install v20
 
 # Download GP2040 source code
-git clone https://github.com/OpenStickCommunity/GP2040-CE
+git clone https://github.com/MegaBitmap/GP2040-CE
+cd GP2040-CE
+git checkout 985ae1a
+git cherry-pick c5b4b92 --no-commit
