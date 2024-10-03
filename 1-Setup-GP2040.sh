@@ -8,6 +8,7 @@ sudo apt -y install git curl cmake gcc-arm-none-eabi libnewlib-arm-none-eabi bui
 cd $HOME
 git clone https://github.com/raspberrypi/pico-sdk.git
 cd pico-sdk
+git checkout tags/1.5.1
 git submodule update --init
 cd ..
 
